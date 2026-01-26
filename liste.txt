@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 louisG      14.5
 louisBO     17.2
 louisBL     12.8
@@ -28,3 +29,22 @@ jed         19
 
     }
 }
+=======
+louis       guerin      
+louis       bordelais     
+louis       blanc
+adam              
+lucas               
+Lucas       verron       
+edgar               
+anatole            
+whilem             
+hatem           
+amal               
+anaelle             
+mathieu            
+alexandre          
+floriant           
+malo              
+jed              
+>>>>>>> 9d3ab84cd110deabed89a64de4f397126adb5bea
