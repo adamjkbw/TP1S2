@@ -15,3 +15,16 @@ alexandre   14.2
 floriant    16.1
 malo        8.5
 jed         19
+
+
+{
+    char line[256];
+    char nom[128], prenom[128];
+    while (fgets(line, sizeof(line), f)) {
+        // Attejd "prenom nom" (séparés par espaces ou tab)
+        if (sscanf(line, " %127s %127s", prenom, nom) == 2){
+            
+        }
+
+    }
+}
