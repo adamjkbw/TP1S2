@@ -2,8 +2,8 @@
 
 int main()
 {
-    int nb_rangées;
-    int nb_tab_rangées;
+    int nb_rangees;
+    int nb_tab_rangees;
     char chemin[25];
-    saisieDeDonnees(nb_rangées, nb_tab_rangées, chemin);
+    saisieDeDonnees(nb_rangees, nb_tab_rangees, chemin);
 }
