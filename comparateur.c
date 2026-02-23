@@ -1,7 +1,7 @@
 #include "comparateur.h"
 #include <stdio.h>
 
-void saisieDeDonnees()
+void saisieDeDonnees(int nb1, int nb2, char fich[])
 {
     printf("Entrez nb rangee : ");
     scanf("%d", &nb1);
