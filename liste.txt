@@ -1,35 +1,3 @@
-<<<<<<< HEAD
-louisG      14.5
-louisBO     17.2
-louisBL     12.8
-adam        19
-lucasC      15.3   
-LucasV      9.7
-edgar       8.4
-anatole     13.1
-whilem      12.8
-hatem       11.4
-amal        7.9
-anaelle     10.6
-mathieu     13.9
-alexandre   14.2
-floriant    16.1
-malo        8.5
-jed         19
-
-
-{
-    char line[256];
-    char nom[128], prenom[128];
-    while (fgets(line, sizeof(line), f)) {
-        // Attejd "prenom nom" (séparés par espaces ou tab)
-        if (sscanf(line, " %127s %127s", prenom, nom) == 2){
-            
-        }
-
-    }
-}
-=======
 louis       guerin      
 louis       bordelais     
 louis       blanc
@@ -44,7 +12,18 @@ amal
 anaelle             
 mathieu            
 alexandre          
-floriant           
+floriant 
 malo              
 jed              
->>>>>>> 9d3ab84cd110deabed89a64de4f397126adb5bea
+
+{
+    char line[256];
+    char nom[128], prenom[128];
+    while (fgets(line, sizeof(line), f)) {
+        // Attejd "prenom nom" (séparés par espaces ou tab)
+        if (sscanf(line, " %127s %127s", prenom, nom) == 2){
+            
+        }
+
+    }
+}
